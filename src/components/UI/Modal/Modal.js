@@ -10,7 +10,6 @@ class Modal extends Component{
     };
 
     render(){
-        console.log('[Modal][Render()]')
         return  (
             <Aux>
                 <Backdrop show={this.props.show} clicked={this.props.modalClosed}/>
